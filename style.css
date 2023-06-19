@@ -1,0 +1,35 @@
+:root{
+
+}
+body{
+	width: 0;
+	height: 0;
+	margin: 0;
+	border: 0;
+	background-image: url("./img/Font.jpg");
+}
+
+#content-grid{
+	display: grid;
+    width: 100vw;
+    height: 100vh;
+    justify-items: start;
+    align-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+}
+#palindromo{
+	display: grid;
+	grid-row: 1/2;
+	
+}
+
+#submit{
+	
+	background: #0ea70d;
+    display: grid;
+    border: solid 0.5vh #07d6ef;}
+#contenido {
+	font-family:monospace;
+	font-size: 5vh;
+}
